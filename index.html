@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+  <header class="main-header">
+    <nav class="navbar">
+      <div class="logo">My Portfolio</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" id="nav-toggle">&#9776;</button>
+    </nav>
+  </header>
+
+  <!-- Sample Sections -->
+  <section id="about">
+    <div class="about-box">
+      <h2>About Me</h2>
+      <p>
+        Organized professional with experience in task management and effective collaboration within team environments. 
+        Demonstrated ability to adapt quickly and communicate clearly, ensuring smooth team dynamics.
+      </p>
+      <p>
+        Gained practical knowledge in meeting deadlines and problem-solving during a hands-on internship. 
+        Passionate about learning and committed to delivering high-quality results.
+      </p>
+      <p>
+        Currently seeking junior-level roles to contribute to dynamic teams and support innovative projects. 
+        You can view more about my experience and skills in the resume below.
+      </p>
+      <button class="resume-button" onclick="downloadResume()">Download Resume</button>
+    </div>
+  </section>
+  <section id="experience">
+    <h2>Experience</h2>
+    <div class="experience-container">
+      <div class="experience-card">
+        <div class="experience-title">
+          <p><strong>Title:</strong> Web Developer</p>
+          <p><strong>Company:</strong> Coderz Vision Technology</p>
+          <p><strong>Duration:</strong> March 2024 - April 2024</p>
+        </div>
+        <div class="responsibilities">
+          <p><strong>Role Highlights:</strong> Developed dynamic layout designs using HTML, CSS, Bootstrap, JavaScript, and jQuery, enhancing user experience and functionality.</p>
+          <p><strong>Version Control:</strong> Updated daily tasks and pushed code changes to GitHub, ensuring seamless project tracking.</p>
+          <p><strong>Time Management:</strong> Completed all assigned tasks within deadlines, demonstrating effective time management skills.</p>
+          <p><strong>Team Collaboration:</strong> Worked with cross-functional teams to ensure smooth coordination and project delivery.</p>
+          <p><strong>Problem-Solving:</strong> Actively participated in brainstorming sessions, contributing to innovative solutions.</p>
+        </div>
+      </div>
+    </div>
+  </section>  
+  <section id="education"><h2>Education</h2>
+    <section id="education">
+      <div class="education-container">
+        <div class="education-card">
+          <h3>MCA</h3>
+          <p><strong>VISTAS, Chennai</strong></p>
+          <p>2022 - 2024</p>
+          <p>Percentage: <strong>94%</strong></p>
+        </div>
+        <div class="education-card">
+          <h3>BCA</h3>
+          <p><strong>A.M. Jain College, Chennai</strong></p>
+          <p>2019 - 2022</p>
+          <p>Percentage: <strong>88%</strong></p>
+        </div>
+        <div class="education-card">
+          <h3>Higher Secondary (12th Grade)</h3>
+          <p><strong>Christ Church Anglo Indian Higher Secondary School</strong></p>
+          <p>2018 - 2019</p>
+          <p>Percentage: <strong>62%</strong></p>
+        </div>
+        <div class="education-card">
+          <h3>Secondary School (10th Grade)</h3>
+          <p><strong>The Hindu Senior higher Secondary School</strong></p>
+          <p>2016 - 2017</p>
+          <p>Percentage: <strong>70%</strong></p>
+        </div>
+      </div>
+    </section>
+    </section>
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills-container">
+        <div class="skill-card">
+          <p><strong>Frontend:</strong></p>
+          <ul class="no-bullets">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Bootstrap</li>
+            <li>JavaScript</li>
+            <li>jQuery</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <p><strong>Backend:</strong> Python</p>
+        </div>
+        <div class="skill-card">
+          <p><strong>Database:</strong> MySQL</p>
+        </div>
+        <div class="skill-card">
+          <p><strong>Version Control:</strong> Git, GitHub</p>
+        </div>
+      </div>
+    </section>    
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects-container">
+        <div class="project-card">
+          <div class="project-header">
+            <h3 class="project-title">Traveloop - Web Application</h3>
+            <a href="https://sriram15901.github.io/traveloop-project/" target="_blank" class="project-link">View Project</a>
+          </div>
+          <p>The Traveloop website is a dynamic travel platform that simulates the booking process while allowing users to explore various destinations.</p>
+          <p>Built with HTML, CSS, JavaScript, jQuery, and Bootstrap, it features a responsive design and interactive elements that enhance user engagement.</p>
+          <p>This project showcases my ability to develop functional web applications tailored to the travel sector.</p>
+        </div>
+        <div class="project-card">
+        <div class="project-header">
+          <h3 class="project-title">Restoration Revival - SQL Case Study</h3>
+          <a href="https://github.com/sriram15901/SQL-Case-Study/blob/main/Restoration_Revival-Case%20Study.pdf" target="_blank" class="project-link">View Case Study</a>
+        </div>
+        <p>Managed a SQL database to track parts inventory, specifications, and historical records for vintage car restorations. </p>
+        <p>Utilized SQL functions and queries to analyze and report on data.</p>
+      </div>
+        <div class="project-card">
+          <div class="project-header">
+            <h3 class="project-title">InVision Clone</h3>
+            <a href=" https://sriram15901.github.io/invision-clone/" target="_blank" class="project-link">View Project</a>
+          </div>
+          <p>The InVision Clone is a static web application that replicates the design interface of the popular design collaboration platform, InVision. Built with HTML, CSS, and Bootstrap, this project showcases my ability to create visually appealing and responsive layouts.</p>
+          <p>Responsive Design: Utilizes Bootstrap for a seamless experience across devices.</p>
+          <p>Static Interface: Mimics the look and feel of InVision, focusing on design aesthetics.</p>
+          <p>This project highlights my skills in frontend development and design, offering a glimpse into my ability to create user-friendly interfaces.</p>
+        </div>
+        <div class="project-card">
+          <div class="project-header">
+            <h3 class="project-title">freeCodeCamp Projects</h3>
+            <a href=" https://sriram15901.github.io/FreeCodeCamp---Projects/" target="_blank" class="project-link">View Project</a>
+          </div>
+          <p></p>
+          <p>This project features a collection of responsive web design projects and JavaScript algorithms completed on FreeCodeCamp. Through these projects, I gained valuable knowledge in HTML, CSS, and JavaScript, enhancing my frontend development skills.</p>
+          <p>Responsive Design: All projects ensure optimal viewing on any device.</p>
+          <p>JavaScript Algorithms and Data Structures (Beta): Highlights my problem-solving abilities with various algorithms.</p>
+          <p>Project Hub: Easy navigation to showcase my work.</p>
+          <p>This collection demonstrates my commitment to learning and applying web development principles.</p>
+        </div>
+      </div>
+    </section>
+    <section id="achievements">
+      <h2>Achievements</h2>
+      <div class="achievements-container">
+        <div class="achievement-card" onclick="openModal('python-sololearn.png')">
+          <img src="python-sololearn.png" alt="Python Certificate in Sololearn">
+        </div>
+        <div class="achievement-card" onclick="openModal('Responsive-Web-Design_certificate_freecodecamp.png')">
+          <img src="Responsive-Web-Design_certificate_freecodecamp.png" alt="Responsive Web design Certificate in freeCodeCamp">
+        </div>
+        <div class="achievement-card" onclick="openModal('sql-coddytech.png')">
+          <img src="sql-coddytech.png" alt="SQL certificate in Coddy.tech">
+        </div>
+        <div class="achievement-card" onclick="openModal('sql-cursa.png')">
+          <img src="sql-cursa.png" alt="SQL Certificate in Cursa">
+        </div>
+        <div class="achievement-card" onclick="openModal('sql-sololearn.png')">
+          <img src="sql-sololearn.png" alt="SQL Cerificate in Sololearn">
+        </div>
+        <div class="achievement-card" onclick="openModal('fullsatck-inlustro.jpg')">
+          <img src="fullsatck-inlustro.jpg" alt="Full Stack Development Certificate in InLustro">
+        </div>
+      </div>
+    
+      <!-- Modal for displaying full PDF -->
+      <div id="modal" class="modal" onclick="closeModal()">
+        <iframe id="modal-content" class="modal-content" src=""></iframe>
+        <span class="close" onclick="closeModal()">&times;</span>
+      </div>
+    </section>    
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="contact-container">
+        <div class="contact-info">
+          <h3>Get in Touch</h3>
+          <p>If you have any questions or opportunities, feel free to reach out to me through any of the channels below.</p>
+          <p><strong>Email:</strong> your-email@gmail.com</p>
+          <p><strong>Phone:</strong> +91 1234567890</p>
+          <p><strong>Location:</strong> Chennai, India</p>
+        </div>
+    
+        <form class="contact-form" action="#" method="post">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    
+      <!-- Social Media Links -->
+      <div class="social-links">
+        <a href="https://github.com/sriram15901" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/sriramlink/" target="_blank">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="mailto:sriram15901@gmail.com">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+    </section>    
+  <script src="script.js"></script>
+</body>
+</html>
