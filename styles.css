@@ -452,3 +452,105 @@ section {
     grid-template-columns: 1fr;
   }
 }
+
+/* Responsive Design for Different Screen Sizes */
+
+/* Tablets and Smaller Devices (Max Width: 1024px) */
+@media (max-width: 1024px) {
+  .experience-container,
+  .education-container,
+  .projects-container,
+  .achievements-container {
+    grid-template-columns: 1fr; /* Single column layout */
+  }
+
+  .about-box {
+    max-width: 90%;
+    padding: 20px;
+  }
+
+  .experience-card,
+  .education-card,
+  .project-card,
+  .achievement-card {
+    max-width: 90%;
+  }
+}
+
+/* Mobile Screens (Max Width: 768px) */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    position: absolute;
+    right: 10px;
+    top: 50px;
+    background-color: #333;
+    width: 200px;
+    display: none;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+
+  #about {
+    height: auto; /* Allow height to adjust dynamically */
+    padding: 30px;
+  }
+
+  .skills-container {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .projects-container {
+    gap: 15px;
+  }
+
+  .achievement-card {
+    width: 100%;  /* Make it full width */
+    height: auto;
+  }
+}
+
+/* Small Mobile Screens (Max Width: 480px) */
+@media (max-width: 480px) {
+  .logo {
+    font-size: 20px;
+  }
+
+  .nav-links a {
+    font-size: 16px;
+  }
+
+  .about-box {
+    padding: 15px;
+  }
+
+  .experience-card,
+  .education-card,
+  .project-card,
+  .achievement-card {
+    padding: 15px;
+    font-size: 14px;
+  }
+
+  .resume-button {
+    font-size: 16px;
+    padding: 8px 15px;
+  }
+
+  .achievement-card {
+    height: 250px; /* Reduce height for small screens */
+  }
+}
